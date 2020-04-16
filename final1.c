@@ -24,7 +24,7 @@ int main(int arg1, char *arg2[])
         return 1; 
     }  
  
-    x = fork();// complexity=1
+    x = fork();
      if (x < 0) 
     { 
         printf(stderr, "Child Failed" ); 
