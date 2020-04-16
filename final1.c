@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
     int fd[2];
 	int fileSize;
-	pid_t pid;
+	int pid;
 
     char text[1024];
 	char copy[1024];  
