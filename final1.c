@@ -60,5 +60,5 @@ int main(int arg1, char *arg2[])
         write(destDesc, copy, numBytesCh); 
     }
 
-    return 0; // complexity=1
+    return 0; 
 }
