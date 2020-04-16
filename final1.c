@@ -23,14 +23,14 @@ int main(int argc, char *argv[])
     pipe(fd);
     if (pipe(fd)==-1) 
     { 
-        fprintf(stderr, "Pipe Failed" ); 
+        printf(stderr, "Pipe Failed" ); 
         return 1; 
     }  
  
     pid = fork();
      if (pid < 0) 
     { 
-        fprintf(stderr, "Fork Failed" ); 
+        printf(stderr, "Fork Failed" ); 
         return 1; 
     } 
 
